@@ -40,8 +40,8 @@ frame.place(relx=0.5, rely=0.5, anchor="c")
 calculation_label = Label(root, text="Calculation",font=(font_style, font_text, 'bold'))
 calculation_label.place(relx=0.258, rely=0.14, anchor='c')
 
-docs_button = Button(root, width=5, height=1,text='Docs', command=Docs,font=(font_style, font_text-5))
-docs_button.place(relx=0.78, rely=0.14, anchor='c')
+# docs_button = Button(root, width=5, height=1,text='Docs', command=Docs,font=(font_style, font_text-5))
+# docs_button.place(relx=0.78, rely=0.14, anchor='c')
 
 calculation_text = AutocompleteCombobox(root, width=40, font=(font_style, font_text), completevalues=sorted(function_list))
 calculation_text.place(relx=0.512, rely=0.18, anchor='c')
